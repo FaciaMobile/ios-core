@@ -7408,13 +7408,6 @@
         "moduleName": "Facia"
       },
       {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
-        "declKind": "Import",
-        "moduleName": "Facia"
-      },
-      {
         "kind": "TypeDecl",
         "name": "Facia",
         "printedName": "Facia",
@@ -16623,13 +16616,6 @@
         "moduleName": "Facia"
       },
       {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
-        "declKind": "Import",
-        "moduleName": "Facia"
-      },
-      {
         "kind": "TypeDecl",
         "name": "AgreementController",
         "printedName": "AgreementController",
@@ -19218,13 +19204,6 @@
         "moduleName": "Facia"
       },
       {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
-        "declKind": "Import",
-        "moduleName": "Facia"
-      },
-      {
         "kind": "TypeDecl",
         "name": "FinalViewController",
         "printedName": "FinalViewController",
@@ -20845,13 +20824,6 @@
         "moduleName": "Facia"
       },
       {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
-        "declKind": "Import",
-        "moduleName": "Facia"
-      },
-      {
         "kind": "TypeDecl",
         "name": "FaciaFlow",
         "printedName": "FaciaFlow",
@@ -21754,13 +21726,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Facia"
-      },
-      {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
         "declKind": "Import",
         "moduleName": "Facia"
       },
@@ -24309,13 +24274,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Facia"
-      },
-      {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
         "declKind": "Import",
         "moduleName": "Facia"
       },
@@ -39662,6 +39620,288 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "Facia",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Facia"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InternalSecurity",
+        "printedName": "InternalSecurity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InternalSecurity",
+                "printedName": "Facia.InternalSecurity",
+                "usr": "c:@M@Facia@objc(cs)InternalSecurity"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Facia16InternalSecurityC14sharedInstanceACvpZ",
+            "mangledName": "$s5Facia16InternalSecurityC14sharedInstanceACvpZ",
+            "moduleName": "Facia",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InternalSecurity",
+                    "printedName": "Facia.InternalSecurity",
+                    "usr": "c:@M@Facia@objc(cs)InternalSecurity"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia16InternalSecurityC14sharedInstanceACvgZ",
+                "mangledName": "$s5Facia16InternalSecurityC14sharedInstanceACvgZ",
+                "moduleName": "Facia",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InternalSecurity",
+                    "printedName": "Facia.InternalSecurity",
+                    "usr": "c:@M@Facia@objc(cs)InternalSecurity"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia16InternalSecurityC14sharedInstanceACvsZ",
+                "mangledName": "$s5Facia16InternalSecurityC14sharedInstanceACvsZ",
+                "moduleName": "Facia",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia16InternalSecurityC14sharedInstanceACvMZ",
+                "mangledName": "$s5Facia16InternalSecurityC14sharedInstanceACvMZ",
+                "moduleName": "Facia",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fm",
+            "printedName": "fm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FileManager",
+                "printedName": "Foundation.FileManager",
+                "usr": "c:objc(cs)NSFileManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Facia16InternalSecurityC2fmSo13NSFileManagerCvp",
+            "mangledName": "$s5Facia16InternalSecurityC2fmSo13NSFileManagerCvp",
+            "moduleName": "Facia",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileManager",
+                    "printedName": "Foundation.FileManager",
+                    "usr": "c:objc(cs)NSFileManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia16InternalSecurityC2fmSo13NSFileManagerCvg",
+                "mangledName": "$s5Facia16InternalSecurityC2fmSo13NSFileManagerCvg",
+                "moduleName": "Facia",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jailBreakTestText",
+            "printedName": "jailBreakTestText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Facia16InternalSecurityC17jailBreakTestText33_D3ED0D8347495961675944C618BC9F8DLLSSvp",
+            "mangledName": "$s5Facia16InternalSecurityC17jailBreakTestText33_D3ED0D8347495961675944C618BC9F8DLLSSvp",
+            "moduleName": "Facia",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "isDeviceJailBroken",
+            "printedName": "isDeviceJailBroken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Facia16InternalSecurityC18isDeviceJailBrokenSbyF",
+            "mangledName": "$s5Facia16InternalSecurityC18isDeviceJailBrokenSbyF",
+            "moduleName": "Facia",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Facia@objc(cs)InternalSecurity",
+        "mangledName": "$s5Facia16InternalSecurityC",
+        "moduleName": "Facia",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "Facia"
       },
       {
@@ -52510,13 +52750,6 @@
       },
       {
         "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
-        "declKind": "Import",
-        "moduleName": "Facia"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -62694,56 +62927,56 @@
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 183,
       "length": 9,
       "value": "\"#4E836C\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 287,
+      "offset": 263,
       "length": 9,
       "value": "\"#EB0000\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 330,
       "length": 9,
       "value": "\"#424242\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 422,
+      "offset": 398,
       "length": 9,
       "value": "\"#424242\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 473,
       "length": 9,
       "value": "\"#F2F4F8\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 564,
+      "offset": 540,
       "length": 9,
       "value": "\"#173DD0\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 633,
+      "offset": 609,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Main\/Facia.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 685,
       "length": 9,
       "value": "\"#173DD0\""
     },
@@ -63030,42 +63263,42 @@
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Consent\/AgreementController.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 362,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Consent\/AgreementController.swift",
       "kind": "BooleanLiteral",
-      "offset": 413,
+      "offset": 389,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Consent\/AgreementController.swift",
       "kind": "BooleanLiteral",
-      "offset": 541,
+      "offset": 517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Consent\/AgreementController.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 556,
       "length": 16,
       "value": "\"Privacy Policy\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Consent\/AgreementController.swift",
       "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 601,
       "length": 14,
       "value": "\"Terms of use\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Greetings\/FinalViewController.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 456,
       "length": 2,
       "value": "\"\""
     },
@@ -64587,6 +64820,13 @@
       "offset": 432,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/DetectJailBreakDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1834,
+      "length": 20,
+      "value": "\"Test for JailBreak\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/LiveDetection\/LiveDetectionController.swift",
