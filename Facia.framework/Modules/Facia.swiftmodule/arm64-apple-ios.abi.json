@@ -26756,6 +26756,30 @@
           },
           {
             "kind": "Function",
+            "name": "setVerificationType",
+            "printedName": "setVerificationType(livenessType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Facia7RequestC19setVerificationType08livenessE0ySS_tF",
+            "mangledName": "$s5Facia7RequestC19setVerificationType08livenessE0ySS_tF",
+            "moduleName": "Facia",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "livenessType",
             "printedName": "livenessType()",
             "children": [
@@ -26957,14 +26981,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Threshold",
-                "printedName": "Facia.Threshold",
-                "usr": "s:5Facia9ThresholdO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Facia7RequestC25setFaceDetectionThreshold04faceeF0yAA0F0O_tF",
-            "mangledName": "$s5Facia7RequestC25setFaceDetectionThreshold04faceeF0yAA0F0O_tF",
+            "usr": "s:5Facia7RequestC25setFaceDetectionThreshold04faceeF0ySS_tF",
+            "mangledName": "$s5Facia7RequestC25setFaceDetectionThreshold04faceeF0ySS_tF",
             "moduleName": "Facia",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -27000,14 +27024,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "OvalSize",
-                "printedName": "Facia.OvalSize",
-                "usr": "s:5Facia8OvalSizeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Facia7RequestC11setOvalSize04ovalE0yAA0dE0O_tF",
-            "mangledName": "$s5Facia7RequestC11setOvalSize04ovalE0yAA0dE0O_tF",
+            "usr": "s:5Facia7RequestC11setOvalSize04ovalE0ySS_tF",
+            "mangledName": "$s5Facia7RequestC11setOvalSize04ovalE0ySS_tF",
             "moduleName": "Facia",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
