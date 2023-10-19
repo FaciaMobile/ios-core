@@ -19,37 +19,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum Threshold : Swift.String {
-  case low
-  case medium
-  case high
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum OvalSize : Swift.String {
-  case small
-  case medium
-  case large
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum LivenessType : Swift.String {
-  case QUICK_LIVENESS_ONLY
-  case DETAILED_LIVENESS_ONLY
-  case ADDITIONAL_CHECK_LIVENESS
-  case DEFAULT_LIVENESS
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 @_inheritsConvenienceInitializers @objc public class Facia : ObjectiveC.NSObject {
   public var face_detected_oval_color: UIKit.UIColor
   public var face_not_detected_oval_color: UIKit.UIColor
@@ -64,12 +33,3 @@ public enum LivenessType : Swift.String {
   @objc override dynamic public init()
   @objc deinit
 }
-extension Facia.Threshold : Swift.Equatable {}
-extension Facia.Threshold : Swift.Hashable {}
-extension Facia.Threshold : Swift.RawRepresentable {}
-extension Facia.OvalSize : Swift.Equatable {}
-extension Facia.OvalSize : Swift.Hashable {}
-extension Facia.OvalSize : Swift.RawRepresentable {}
-extension Facia.LivenessType : Swift.Equatable {}
-extension Facia.LivenessType : Swift.Hashable {}
-extension Facia.LivenessType : Swift.RawRepresentable {}

@@ -4991,7 +4991,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia9ThresholdO3lowyA2CmF",
             "mangledName": "$s5Facia9ThresholdO3lowyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -5028,7 +5029,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia9ThresholdO6mediumyA2CmF",
             "mangledName": "$s5Facia9ThresholdO6mediumyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Var",
@@ -5065,7 +5067,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia9ThresholdO4highyA2CmF",
             "mangledName": "$s5Facia9ThresholdO4highyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Constructor",
@@ -5144,10 +5147,8 @@
         "usr": "s:5Facia9ThresholdO",
         "mangledName": "$s5Facia9ThresholdO",
         "moduleName": "Facia",
-        "declAttributes": [
-          "AccessControl"
-        ],
         "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -5184,6 +5185,13 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5227,7 +5235,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia8OvalSizeO5smallyA2CmF",
             "mangledName": "$s5Facia8OvalSizeO5smallyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -5264,7 +5273,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia8OvalSizeO6mediumyA2CmF",
             "mangledName": "$s5Facia8OvalSizeO6mediumyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Var",
@@ -5301,7 +5311,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia8OvalSizeO5largeyA2CmF",
             "mangledName": "$s5Facia8OvalSizeO5largeyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Constructor",
@@ -5380,10 +5391,8 @@
         "usr": "s:5Facia8OvalSizeO",
         "mangledName": "$s5Facia8OvalSizeO",
         "moduleName": "Facia",
-        "declAttributes": [
-          "AccessControl"
-        ],
         "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -5420,6 +5429,13 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5463,7 +5479,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia12LivenessTypeO19QUICK_LIVENESS_ONLYyA2CmF",
             "mangledName": "$s5Facia12LivenessTypeO19QUICK_LIVENESS_ONLYyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -5500,7 +5517,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia12LivenessTypeO22DETAILED_LIVENESS_ONLYyA2CmF",
             "mangledName": "$s5Facia12LivenessTypeO22DETAILED_LIVENESS_ONLYyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Var",
@@ -5537,7 +5555,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia12LivenessTypeO25ADDITIONAL_CHECK_LIVENESSyA2CmF",
             "mangledName": "$s5Facia12LivenessTypeO25ADDITIONAL_CHECK_LIVENESSyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Var",
@@ -5574,7 +5593,8 @@
             "declKind": "EnumElement",
             "usr": "s:5Facia12LivenessTypeO16DEFAULT_LIVENESSyA2CmF",
             "mangledName": "$s5Facia12LivenessTypeO16DEFAULT_LIVENESSyA2CmF",
-            "moduleName": "Facia"
+            "moduleName": "Facia",
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Constructor",
@@ -5653,10 +5673,8 @@
         "usr": "s:5Facia12LivenessTypeO",
         "mangledName": "$s5Facia12LivenessTypeO",
         "moduleName": "Facia",
-        "declAttributes": [
-          "AccessControl"
-        ],
         "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -5693,6 +5711,13 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -12566,6 +12591,97 @@
           },
           {
             "kind": "Var",
+            "name": "testcount",
+            "printedName": "testcount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Facia22VerificationControllerC9testcountSivp",
+            "mangledName": "$s5Facia22VerificationControllerC9testcountSivp",
+            "moduleName": "Facia",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 8,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia22VerificationControllerC9testcountSivg",
+                "mangledName": "$s5Facia22VerificationControllerC9testcountSivg",
+                "moduleName": "Facia",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia22VerificationControllerC9testcountSivs",
+                "mangledName": "$s5Facia22VerificationControllerC9testcountSivs",
+                "moduleName": "Facia",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia22VerificationControllerC9testcountSivM",
+                "mangledName": "$s5Facia22VerificationControllerC9testcountSivM",
+                "moduleName": "Facia",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "footerImage",
             "printedName": "footerImage",
             "children": [
@@ -12586,7 +12702,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true,
             "accessors": [
               {
@@ -12775,7 +12891,7 @@
               "HasStorage",
               "Final"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true
           },
           {
@@ -12800,7 +12916,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "hasStorage": true,
             "accessors": [
               {
@@ -12891,7 +13007,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true,
             "accessors": [
               {
@@ -12982,7 +13098,7 @@
               "HasStorage",
               "ReferenceOwnership"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -13090,7 +13206,7 @@
               "HasStorage",
               "ReferenceOwnership"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 14,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -13211,7 +13327,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 15,
             "hasStorage": true,
             "accessors": [
               {
@@ -13347,7 +13463,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "hasStorage": true,
             "accessors": [
               {
@@ -13476,7 +13592,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 17,
             "hasStorage": true,
             "accessors": [
               {
@@ -13567,7 +13683,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 18,
             "hasStorage": true,
             "accessors": [
               {
@@ -13658,7 +13774,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 19,
             "hasStorage": true,
             "accessors": [
               {
@@ -13749,7 +13865,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 20,
             "hasStorage": true,
             "accessors": [
               {
@@ -13840,7 +13956,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 21,
             "hasStorage": true,
             "accessors": [
               {
@@ -13939,7 +14055,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 22,
             "hasStorage": true,
             "accessors": [
               {
@@ -61847,7 +61963,7 @@
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 2,
-      "value": "40"
+      "value": "30"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
@@ -62517,434 +62633,434 @@
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4843,
+      "offset": 4836,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4867,
+      "offset": 4860,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4892,
+      "offset": 4885,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4843,
+      "offset": 4836,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4867,
+      "offset": 4860,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4892,
+      "offset": 4885,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4951,
+      "offset": 4937,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4975,
+      "offset": 4961,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 4987,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4951,
+      "offset": 4937,
       "length": 5,
       "value": "\"low\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 4975,
+      "offset": 4961,
       "length": 8,
       "value": "\"medium\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 4987,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5224,
+      "offset": 5203,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5260,
+      "offset": 5239,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5287,
+      "offset": 5266,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5315,
+      "offset": 5294,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5340,
+      "offset": 5319,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5378,
+      "offset": 5357,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5410,
+      "offset": 5389,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5444,
+      "offset": 5423,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5472,
+      "offset": 5451,
       "length": 3,
       "value": "406"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5501,
+      "offset": 5480,
       "length": 3,
       "value": "410"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5538,
+      "offset": 5517,
       "length": 3,
       "value": "418"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5571,
+      "offset": 5550,
       "length": 3,
       "value": "429"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5608,
+      "offset": 5587,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5643,
+      "offset": 5622,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5224,
+      "offset": 5203,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5260,
+      "offset": 5239,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5287,
+      "offset": 5266,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5315,
+      "offset": 5294,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5340,
+      "offset": 5319,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5378,
+      "offset": 5357,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5410,
+      "offset": 5389,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5444,
+      "offset": 5423,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5472,
+      "offset": 5451,
       "length": 3,
       "value": "406"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5501,
+      "offset": 5480,
       "length": 3,
       "value": "410"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5538,
+      "offset": 5517,
       "length": 3,
       "value": "418"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5571,
+      "offset": 5550,
       "length": 3,
       "value": "429"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5608,
+      "offset": 5587,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5643,
+      "offset": 5622,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5224,
+      "offset": 5203,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5260,
+      "offset": 5239,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5287,
+      "offset": 5266,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5315,
+      "offset": 5294,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5340,
+      "offset": 5319,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5378,
+      "offset": 5357,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5410,
+      "offset": 5389,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5444,
+      "offset": 5423,
       "length": 3,
       "value": "405"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5472,
+      "offset": 5451,
       "length": 3,
       "value": "406"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5501,
+      "offset": 5480,
       "length": 3,
       "value": "410"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5538,
+      "offset": 5517,
       "length": 3,
       "value": "418"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5571,
+      "offset": 5550,
       "length": 3,
       "value": "429"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5608,
+      "offset": 5587,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "IntegerLiteral",
-      "offset": 5643,
+      "offset": 5622,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5734,
+      "offset": 5713,
       "length": 9,
       "value": "\"#4E836C\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5814,
+      "offset": 5793,
       "length": 9,
       "value": "\"#EB0000\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5881,
+      "offset": 5860,
       "length": 9,
       "value": "\"#424242\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 5949,
+      "offset": 5928,
       "length": 9,
       "value": "\"#424242\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6024,
+      "offset": 6003,
       "length": 9,
       "value": "\"#F2F4F8\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6091,
+      "offset": 6070,
       "length": 9,
       "value": "\"#173DD0\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6160,
+      "offset": 6139,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
       "kind": "StringLiteral",
-      "offset": 6236,
+      "offset": 6215,
       "length": 9,
       "value": "\"#173DD0\""
     },
@@ -63048,57 +63164,64 @@
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 753,
+      "offset": 770,
       "length": 64,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 822,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 816,
+      "offset": 833,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1099,
+      "offset": 1116,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1132,
+      "offset": 1149,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1341,
+      "offset": 1358,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1428,
+      "offset": 1445,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yasir\/Desktop\/Desktop\/Code\/Facia\/facia_default_sdk\/facia-ios\/Facia\/FaciaModule\/Verification\/VerificationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1459,
+      "offset": 1476,
       "length": 5,
       "value": "false"
     },
