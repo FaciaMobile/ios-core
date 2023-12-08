@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Facia"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "iOS-SDK"
   
   spec.description  = <<-DESC
