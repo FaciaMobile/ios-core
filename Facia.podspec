@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Facia"
-  spec.version      = "3.0.9"
+  spec.version      = "3.1.0"
   spec.summary      = "iOS-SDK"
   
   spec.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/FaciaMobile/ios-core.git", :tag => "#{spec.version}" }
   
-    spec.ios.vendored_frameworks = 'Facia.framework'
+    spec.ios.vendored_frameworks = 'Facia.xcframework'
     spec.swift_version = "5"
   
   spec.exclude_files = "Classes/Exclude"
