@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		s1xDCFdlHRPxdj1wummRsAgqHjY=
+		8FVgnx+0mfkoSwzYdYBBa75znQ8=
 		</data>
 		<key>FooterView.nib/objects-13.0+.nib</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bsTLSCxUzOSHzhwsUfvVT3MS+14=
+		EWYCbG236BSNlR7yOETsyFMrSE4=
 		</data>
 		<key>Inter-Bold.ttf</key>
 		<data>
@@ -454,7 +454,7 @@
 		</data>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kMAIl9lUI8jWG6cNixsNOG6Dsug=
+		Hlf+xnQEq+0xH3NuzBdgvMvveV0=
 		</data>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -470,11 +470,11 @@
 		</data>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rdEO5SHv+FaxmmnUEBCMQBO7mp4=
+		/M42KVERH5i1x0D92a25DpdnvLY=
 		</data>
 		<key>Modules/Facia.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kMAIl9lUI8jWG6cNixsNOG6Dsug=
+		Hlf+xnQEq+0xH3NuzBdgvMvveV0=
 		</data>
 		<key>Modules/Facia.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -490,7 +490,7 @@
 		</data>
 		<key>Modules/Facia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ILjDRGWGwgFP51OQmpLuhviJnz4=
+		r78/wPy6w3KjUxE/c+0UL3DcKdg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -519,7 +519,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1GEmrmYXj2+I14c8cRVGiAdOoWPe0zFI21Vib2gMIeA=
+			vwB39fTtALL3bhBy1pp3ozrHdUaBTQUnsxmedFSJG0w=
 			</data>
 		</dict>
 		<key>FooterView.nib/objects-13.0+.nib</key>
@@ -1296,7 +1296,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tMP+gAGJQAKimud3HGvELeW3N7PolwUCgTUOnuzE3PM=
+			tLzuLW52DfBCARWb2uV1jBjPlu9oSzxnderYwktq0pk=
 			</data>
 		</dict>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1324,14 +1324,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7R/wpxtkw6RilEwP1D3MpOz9uBHrs9CuEbkQD7mruQ=
+			hU+wZdCLq+lcyK2mdaTqUKvwcwi83LbSZCIqjSKT28w=
 			</data>
 		</dict>
 		<key>Modules/Facia.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tMP+gAGJQAKimud3HGvELeW3N7PolwUCgTUOnuzE3PM=
+			tLzuLW52DfBCARWb2uV1jBjPlu9oSzxnderYwktq0pk=
 			</data>
 		</dict>
 		<key>Modules/Facia.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1359,7 +1359,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x3DkTb6kYyPqDst30jvx91fDQ+JAWAkksGAbp/pAQQ8=
+			0noDW9RaCpDHDVzXQ9/UnofQMHBezTxbIHj1/7+tp+8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
