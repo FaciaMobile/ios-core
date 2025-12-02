@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Facia"
-  spec.version      = "3.1.5"
+  spec.version      = "3.1.6"
   spec.summary      = "iOS-SDK"
   
   spec.description  = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/FaciaMobile/ios-core"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Facia" => "support@facia.ai" }
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
   
   spec.source       = { :git => "https://github.com/FaciaMobile/ios-core.git", :tag => "#{spec.version}" }
   
