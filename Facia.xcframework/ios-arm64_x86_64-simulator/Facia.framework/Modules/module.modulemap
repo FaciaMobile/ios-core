@@ -7,5 +7,4 @@ framework module Facia {
 
 module Facia.Swift {
   header "Facia-Swift.h"
-  requires objc
 }

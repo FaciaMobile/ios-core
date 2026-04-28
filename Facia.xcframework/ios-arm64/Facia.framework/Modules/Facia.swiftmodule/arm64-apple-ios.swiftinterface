@@ -1,13 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Facia
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Facia
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVFoundation
 import AVKit
 import CoreML
 import DeveloperToolsSupport
 @_exported import Facia
 import Foundation
+import PDFKit
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -28,12 +29,8 @@ import _SwiftConcurrencyShims
   public var button_bg_color: UIKit.UIColor
   public var button_text_color: UIKit.UIColor
   public var dialog_button_text_color: UIKit.UIColor
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func createRequest(parentViewController: UIKit.UIViewController, accessToken: Swift.String, configs: [Swift.String : Any]?, completion: @escaping (_ result: Any) -> ())
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func checkSimilarity(parentViewController: UIKit.UIViewController, accessToken: Swift.String, faceImage: UIKit.UIImage, idImage: UIKit.UIImage, configs: [Swift.String : Any]?, completion: @escaping (_ result: Any) -> ())
-  #endif
   @objc override dynamic public init()
   @objc deinit
 }
