@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		UKvue5wduvO/9OLkJOhMHYbg8Iw=
+		mAXkkTZeIpqYEer9nL+GQjcuqJ4=
 		</data>
 		<key>FooterView.nib/objects-13.0+.nib</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U109Y+ysCnzY3AacHa59zE0FXU0=
+		fPnYy6sYoBJ0Rqu4YZrQaDYVXjI=
 		</data>
 		<key>Inter-Bold.ttf</key>
 		<data>
@@ -526,7 +526,7 @@
 		</data>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pxqE2rLxOpGDPtRHX9M1VuhyCcc=
+		65LR5mspogUiA1OAStisJddZ7s8=
 		</data>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -542,7 +542,7 @@
 		</data>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Xw4n3RypiG2yMj6XLKINJ/9NmNw=
+		FG0/sC5TYY8nX39uKMKJmS/3yxI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -571,7 +571,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mAsV8kLKwgb3pXIGwL4K0S2g0CRKXha7zfaATAzHuTs=
+			Rminh/43ickXzZKiacWkSAL8TajjqVcM2BGltDEK3Eg=
 			</data>
 		</dict>
 		<key>FooterView.nib/objects-13.0+.nib</key>
@@ -1474,7 +1474,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pXTn0ls/L4vZPdWdPISnQYhgTG2kUfxj5pFtOQkBqJM=
+			OhMJaOqTEAd0n4uF6e33rJc8vryYdiZW69cQgwPcV4k=
 			</data>
 		</dict>
 		<key>Modules/Facia.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1502,7 +1502,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			StpZurFsQVnwS3Z6UbU/q6Ql4lJzjWnyO0vzkFzz37o=
+			+cM721F9HfyvQG7YH9j+2HoTGd6Na2smpt+ajqY+JvU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
