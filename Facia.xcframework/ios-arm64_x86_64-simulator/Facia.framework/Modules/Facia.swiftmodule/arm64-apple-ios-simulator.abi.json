@@ -2353,6 +2353,178 @@
         "moduleName": "Facia"
       },
       {
+        "kind": "TypeDecl",
+        "name": "FaciaLogger",
+        "printedName": "FaciaLogger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isLoggingEnabled",
+            "printedName": "isLoggingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Facia0A6LoggerO16isLoggingEnabledSbvpZ",
+            "mangledName": "$s5Facia0A6LoggerO16isLoggingEnabledSbvpZ",
+            "moduleName": "Facia",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia0A6LoggerO16isLoggingEnabledSbvgZ",
+                "mangledName": "$s5Facia0A6LoggerO16isLoggingEnabledSbvgZ",
+                "moduleName": "Facia",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia0A6LoggerO16isLoggingEnabledSbvsZ",
+                "mangledName": "$s5Facia0A6LoggerO16isLoggingEnabledSbvsZ",
+                "moduleName": "Facia",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Facia0A6LoggerO16isLoggingEnabledSbvMZ",
+                "mangledName": "$s5Facia0A6LoggerO16isLoggingEnabledSbvMZ",
+                "moduleName": "Facia",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Facia0A6LoggerO3logyySSyXKFZ",
+            "mangledName": "$s5Facia0A6LoggerO3logyySSyXKFZ",
+            "moduleName": "Facia",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Facia0A6LoggerO",
+        "mangledName": "$s5Facia0A6LoggerO",
+        "moduleName": "Facia",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Facia"
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2553,7 +2725,7 @@
       "kind": "StringLiteral",
       "offset": 86,
       "length": 7,
-      "value": "\"3.2.6\""
+      "value": "\"3.2.7\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/Utilities\/AppConstant.swift",
@@ -6863,21 +7035,21 @@
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CheckSimilarity\/CheckSimilarityViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1094,
+      "offset": 1300,
       "length": 64,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CheckSimilarity\/CheckSimilarityViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1352,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CheckSimilarity\/CheckSimilarityViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1363,
       "length": 2,
       "value": "\"\""
     },
@@ -6915,6 +7087,27 @@
       "offset": 412,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1127,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1179,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1650,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
@@ -6995,262 +7188,297 @@
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2673,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2322,
+      "offset": 3109,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2364,
+      "offset": 3151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2464,
+      "offset": 3251,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21452,
+      "offset": 29716,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 21456,
+      "offset": 29720,
       "length": 5,
       "value": "400.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 21529,
+      "offset": 29793,
       "length": 5,
       "value": "240.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 21546,
+      "offset": 29810,
       "length": 5,
       "value": "400.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21646,
+      "offset": 29910,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 21678,
+      "offset": 29942,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21684,
+      "offset": 29948,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21880,
+      "offset": 30144,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 21917,
+      "offset": 30181,
       "length": 5,
       "value": "240.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21982,
+      "offset": 30246,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 22013,
+      "offset": 30277,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22019,
+      "offset": 30283,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22386,
+      "offset": 30650,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 22390,
+      "offset": 30654,
       "length": 5,
       "value": "400.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 22463,
+      "offset": 30727,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22599,
+      "offset": 30863,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22668,
+      "offset": 30932,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22678,
+      "offset": 30942,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22756,
+      "offset": 31020,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22766,
+      "offset": 31030,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22785,
+      "offset": 31049,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23012,
+      "offset": 31276,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23049,
+      "offset": 31313,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23183,
+      "offset": 31447,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23252,
+      "offset": 31516,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23262,
+      "offset": 31526,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23340,
+      "offset": 31604,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23350,
+      "offset": 31614,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23369,
+      "offset": 31633,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 25312,
+      "offset": 33576,
       "length": 4,
       "value": "70.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 25346,
+      "offset": 33610,
       "length": 4,
       "value": "70.0"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25399,
+      "offset": 33663,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25409,
+      "offset": 33673,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
       "kind": "FloatLiteral",
-      "offset": 25444,
+      "offset": 33708,
       "length": 4,
       "value": "36.0"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
+      "kind": "FloatLiteral",
+      "offset": 34970,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35115,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35268,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardDetectionController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35560,
+      "length": 2,
+      "value": "12"
     },
     {
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/LiveDetection\/InstructionsController\/ActiveLivenessViewController.swift",
@@ -7606,6 +7834,13 @@
       "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/CardDetection\/CardPreview\/PreviewViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 777,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saadafzaal\/Automation\/PF\/gitlab\/facia-ios\/Facia\/FaciaModule\/Utilities\/FaciaLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 602,
       "length": 5,
       "value": "false"
     },

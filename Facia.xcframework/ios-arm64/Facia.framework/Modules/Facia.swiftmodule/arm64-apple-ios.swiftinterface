@@ -46,3 +46,7 @@ public let ReachabilityChangedNotification: Foundation.NSNotification.Name
 extension Foundation.NSNotification.Name {
   public static let reachabilityChanged: Foundation.Notification.Name
 }
+public enum FaciaLogger {
+  public static var isLoggingEnabled: Swift.Bool
+  public static func log(_ message: @autoclosure () -> Swift.String)
+}
