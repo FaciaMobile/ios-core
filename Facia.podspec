@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Facia"
-  spec.version      = "3.2.9"
+  spec.version      = "3.3.0"
   spec.summary      = "iOS-SDK"
   
   spec.description  = <<-DESC
@@ -19,6 +19,5 @@ Pod::Spec.new do |spec|
     spec.swift_version = "5"
   
   spec.exclude_files = "Classes/Exclude"
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ 
   end
